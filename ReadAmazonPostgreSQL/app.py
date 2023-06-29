@@ -4,8 +4,8 @@ def execute_query():
      # define your db connection string
         conn = psycopg2.connect(dbname='postgres',
                                user='elevateuadmin',
-                               password='elevateuadmin2023',
-                               host='elevateu-dev.cpdi379tec7f.us-east-1.rds.amazonaws.com',
+                               password='********',
+                               host='dev.***********.us-east-1.rds.amazonaws.com',
                                port='5432',
                                sslmode='require')
         try:
