@@ -1,0 +1,13 @@
+# Conditional IF statement
+first_name = input("What is your first name?")
+print('Your name is longer') if len(
+    first_name) >= 6 else print('Your name is shorter')
+
+
+message = "The first letter in your name is among five most common" if first_name[0].lower(
+) in ["a", "v", "j"] else "Your first name is not common"
+print(message)
+
+
+for letter in first_name:
+    print(f"{letter} is a vowel") if letter.lower() in ["a", "e","i","o","u"] else print(f"{letter} is not a vowel")
